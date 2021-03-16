@@ -1,15 +1,19 @@
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif; 
     background-color: black;
-    color: darkgrey;
-    border: darkgrey solid 2px;
-    margin: 10px;
-    padding: 20px;
-    width: 50%;
-    margin-left: 50px;
-    margin-top: 50px;
 }
 
+.contenido{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+}
+
+#limite{
+    margin-top: 80px;
+    width: 45%;
+    background-color: white;
+}
 
 .todo{
     margin-left: 30px;
@@ -33,7 +37,7 @@ body{
 }
 
 .logo4geeks{
-    margin-left: 290px;
+    margin-left: 300px;
     height: 80px;
     margin-top: 10px;
 }
@@ -48,7 +52,7 @@ form{
 }
 
 
-.centrar{
+.boton{
     display: flex;
     justify-content: center;
 }
@@ -56,14 +60,17 @@ form{
 button{
     margin-top: 50px;
     width: 130px;
-    background-color: rgba(52, 183, 235, 0.8);
+    background-color: lightgray;
     border: none;
-    color: white;
     padding: 5px;
     border-radius: 4px;
 }
 
 input{
     border: none;
-    border-bottom: white solid 1px;
+    border-bottom: lightgrey solid 1px;
+}
+
+h1{
+    margin-top: 50px;
 }
